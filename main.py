@@ -75,7 +75,7 @@ while len(success_list) < 101:
 
     if answer_dpt == 'q':
         break
-    if answer_dpt in dpt_data_list:
+    if answer_dpt in dpt_data_list and answer_dpt not in success_list:
         dpt = data[data.departement == answer_dpt]
         coord = (int(dpt.x), int(dpt.y))
         t_dpt_text.goto(coord)
@@ -104,7 +104,10 @@ else:
         t_dpt_text.goto(coord)
         t_dpt_text.write(item, align='left', font=('Arial', 10, 'normal'))
 
-    df = pandas.DataFrame(missed_list)
+    dpt_missed_dict = {
+        "departement": missed_list
+    }
+    df = pandas.DataFrame(dpt_missed_dict)
     df.to_csv("dpt_a_reviser.csv")
 
 screen.exitonclick()
