@@ -38,6 +38,7 @@ t_exit.write("'q' pour quitter",
 t_dpt_text = turtle.Turtle()
 t_dpt_text.hideturtle()
 t_dpt_text.penup()
+t_dpt_text.color("green")
 t_dpt_text.speed(0)
 
 # SCORE TURTLE
@@ -94,7 +95,6 @@ if len(success_list) == 101:
 else:
     for item in dpt_data_list:
         if item not in success_list:
-
             missed_list.append(item)
 
     for item in missed_list:
@@ -104,7 +104,7 @@ else:
         t_dpt_text.goto(coord)
         t_dpt_text.write(item, align='left', font=('Arial', 10, 'normal'))
 
-
-    # df = pandas.DataFrame(missed_list)
+    df = pandas.DataFrame(missed_list)
+    df.to_csv("dpt_a_reviser.csv")
 
 screen.exitonclick()

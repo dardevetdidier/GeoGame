@@ -4,24 +4,24 @@ Aisne,89,293
 Allier,62,15
 Alpes-de-Haute-Provence,258,-180
 Hautes-Alpes,262,-133
-Alpes-Maritimes,317,-196
+Alpes-Maritimes,315,-222
 Ardèche,143,-138
 Ardennes,155,301
 Ariège,-40,-293
 Aube,129,183
 Aude,27,-279
 Aveyron,30,-168
-Bouches-du-Rhône,155,-250
+Bouches-du-Rhône,132,-259
 Calvados,-152,251
 Cantal,35,-108
-Charente,-117,51
-Charente-Maritime,-205,-30
+Charente,-112,-59
+Charente-Maritime,-240,-29
 Cher,35,70
 Corrèze,-21,-87
 Corse-du-Sud,408,-396
 Haute-Corse,427,-332
 Côte-d'Or,150,103
-Côtes d'Armor,-297,198
+Côtes d'Armor,-314,185
 Creuse,0,-14
 Dordogne,-96,-112
 Doubs,268,79
@@ -54,7 +54,7 @@ Marne,137,243
 Haute-Marne,191,154
 Mayenne,-170,168
 Meurthe-et-Moselle,254,208
-Meuse,210,267
+Meuse,212,237
 Morbihan,-307,145
 Moselle,290,239
 Nièvre,85,74
@@ -66,7 +66,7 @@ Puy-de-Dôme,53,-42
 Pyrénées-Atlantiques,-187,-260
 Hautes-Pyrénées,-112,-275
 Pyrénées-Orientales,23,-326
-Bas-Rhin,348,204
+Bas-Rhin,341,189
 Haut-Rhin,332,146
 Rhône,170,-45
 Haute-Saône,232,110
@@ -76,7 +76,7 @@ Savoie,279,-68
 Haute-Savoie,266,-18
 Paris,-415,381
 Seine-Maritime,-89,300
-Seine-et-Marne,-339,347
+Seine-et-Marne,-354,335
 Yvelines,-466,373
 Deux-Sèvres,-138,40
 Somme,4,324
@@ -88,8 +88,8 @@ Vendée,-212,31
 Vienne,-93,21
 Haute-Vienne,-53,-44
 Vosges,262,171
-Yonne,84,168
-Territoire de Belfort,-253,425
+Yonne,87,135
+Territoire de Belfort,314,119
 Essonne,-413,318
 Hauts-de-Seine,-408,446
 Seine-St-Denis,-330,437
